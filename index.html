@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ATLAS 工业大模型与智能体评测平台族，统一连接数据集质量、模型可靠性、智能体测试与 AI 应用安全四个平台。">
+  <title>ATLAS | 工业大模型与智能体评测平台</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="#" data-scroll-top aria-label="ATLAS 首页">
+        <span class="brand-name">ATLAS</span>
+        <span class="brand-subtitle">工业大模型与智能体评测平台</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">导航</button>
+      <nav id="primary-nav" class="primary-nav" aria-label="主要导航">
+        <a href="#platforms">四大平台</a>
+        <a href="#method">评测方法</a>
+        <a href="#reports">报告与证据</a>
+        <a class="nav-action" href="http://8.130.152.15/login?next=/project/overview">评测工作台</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" data-snap-section aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title" class="type-title" aria-label="让工业智能的每一步，都有据可验。"><span class="typed-text" aria-hidden="true">让工业智能的每一步，<br>都有据可验。</span><span class="type-caret" aria-hidden="true"></span></h1>
+        <p class="hero-lead">四个独立平台，统一核验数据、模型、智能体与应用安全。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#platforms">探索四大平台</a>
+          <a class="button button-quiet" href="#method">了解评测流程</a>
+        </div>
+        <button class="typing-toggle" type="button" aria-pressed="false">暂停标题</button>
+      </div>
+
+      <aside class="system-panel" data-glass aria-label="ATLAS 平台协同架构">
+        <div class="panel-head">
+          <svg class="window-dots" viewBox="0 0 52 12" aria-hidden="true"><circle class="window-dot-red" cx="6" cy="6" r="5"></circle><circle class="window-dot-yellow" cx="26" cy="6" r="5"></circle><circle class="window-dot-green" cx="46" cy="6" r="5"></circle></svg>
+        </div>
+        <div class="entry-node" data-glass>
+          <div>
+            <strong>统一门户与评测工作台</strong>
+            <span>按对象独立接入，按场景组合评测</span>
+          </div>
+        </div>
+        <div id="platform-drawer" class="platform-drawer" data-open="true" aria-hidden="false">
+          <div class="platform-drawer-inner">
+            <div class="platform-stack" data-glass>
+              <div class="platform-line">
+                <span class="measured line-code">P1</span>
+                <div><strong>数据集质量</strong><span class="line-detail">数据基础</span></div>
+              </div>
+              <div class="platform-line">
+                <span class="measured line-code">P2</span>
+                <div><strong>模型可靠性</strong><span class="line-detail">结论与证据</span></div>
+              </div>
+              <div class="platform-line">
+                <span class="measured line-code">P3</span>
+                <div><strong>智能体测试</strong><span class="line-detail">任务执行</span></div>
+              </div>
+              <div class="platform-line platform-line-security">
+                <span class="measured line-code">P4</span>
+                <div><strong>AI 应用安全</strong><span>横切数据、模型、执行与交接</span></div>
+                <span class="measured gate-code">G_safe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="drawer-control">
+          <button class="drawer-toggle" type="button" aria-expanded="true" aria-controls="platform-drawer">
+            <span class="visually-hidden">收起平台列表</span>
+          </button>
+        </div>        <p class="panel-note">四个平台独立出具结论；全栈评测时串链执行，安全判定绑定对象、版本与任务范围。</p>
+      </aside>
+    </section>
+    <section class="principles-section section container snap-slide" data-snap-section aria-labelledby="principles-title">
+      <div class="section-intro">
+        <h2 id="principles-title">评测从范围开始。</h2>
+        <p>四个平台按对象独立接入，也可以按场景组合评测。</p>
+      </div>
+      <div class="principle-list">
+        <article class="principle-row">
+          <div><h3>独立评测，组合接入</h3><p>支持只提交数据集、模型或智能体，按实际范围开展测试。</p></div>
+        </article>
+        <article class="principle-row">
+          <div><h3>分项指标，明确边界</h3><p>保留各维度指标与适用性，不以综合平均分抵消关键失败。</p></div>
+        </article>
+        <article class="principle-row">
+          <div><h3>证据追溯，支持复核</h3><p>从评测结论回溯运行记录、核验规则与原始证据。</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="platforms" class="section container platforms-section" data-snap-section aria-labelledby="platforms-title">
+      <div class="section-heading">
+        <div>
+          <h2 id="platforms-title">从数据基础，到执行结果。</h2>
+          <p>统一评测入口，四个独立能力体系。</p>
+        </div>
+      </div>
+      <div class="platform-index console-table" data-glass>
+        <article class="platform-row console-row" data-spotlight>
+          <div class="platform-main">
+            <h3><span class="platform-id measured">P1</span>工业数据集质量评测</h3>
+            <p>面向 CAD、数控机床数据、传感器、日志与标注数据，定位影响下游使用的质量问题。</p>
+          </div>
+          <div class="platform-meta">
+            <p>完整性、准确性、一致性、有效性、平衡性、代表性、合规性</p>
+            <button class="detail-button" type="button" data-detail-index="0">查看评测范围</button>
+          </div>
+        </article>
+        <article class="platform-row console-row" data-spotlight>
+          <div class="platform-main">
+            <h3><span class="platform-id measured">P2</span>工业大模型可靠性评测</h3>
+            <p>核查模型结论、引用证据与置信度，评估工业任务中的可靠性与运行表现。</p>
+          </div>
+          <div class="platform-meta">
+            <p>正确性、输出与证据、幻觉与置信度、抗干扰与一致性、安全、性能</p>
+            <button class="detail-button" type="button" data-detail-index="1">查看评测范围</button>
+          </div>
+        </article>
+        <article class="platform-row console-row" data-spotlight>
+          <div class="platform-main">
+            <h3><span class="platform-id measured">P3</span>工业智能体测试</h3>
+            <p>以业务任务的实际完成效果为导向，核验单智能体及多智能体系统的执行结果。</p>
+          </div>
+          <div class="platform-meta">
+            <p>U1 任务完成率、U2 任务结果质量、U3 执行正确率、U4 执行效率</p>
+            <button class="detail-button" type="button" data-detail-index="2">查看评测范围</button>
+          </div>
+        </article>
+        <article class="platform-row platform-row-security console-row" data-spotlight>
+          <div class="platform-main">
+            <h3><span class="platform-id measured">P4</span>AI 应用安全评测</h3>
+            <p>贯穿数据接入、模型处理、智能体执行与跨平台交接，统一输出安全门控。</p>
+          </div>
+          <div class="platform-meta">
+            <p>安全边界、高风险操作审批、异常处置、告警有效性、关键行为追溯</p>
+            <button class="detail-button" type="button" data-detail-index="3">查看评测范围</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="method" class="section section-band snap-slide" data-snap-section aria-labelledby="method-title">
+      <div class="container split-section">
+        <div class="section-intro">
+          <h2 id="method-title">先约定判据，<br>再验证实际效果。</h2>
+          <p>同一套方法适配不同工业场景。只提交单类对象时执行适用环节，报告明确未覆盖范围；全栈中试时核验跨平台交接与安全门控。</p>
+        </div>
+        <ol class="protocol-trail">
+          <li>
+            <span class="measured">01 / 范围</span>
+            <div><h3>确认范围与规则</h3><p>明确对象版本、评测范围、业务判据与安全规则。</p></div>
+          </li>
+          <li>
+            <span class="measured">02 / 接入</span>
+            <div><h3>接入与联调</h3><p>完成材料导入、接口映射与正常样例校验。</p></div>
+          </li>
+          <li>
+            <span class="measured">03 / 执行</span>
+            <div><h3>锁定版本并执行</h3><p>分环节测试，按需开展串联评测与风险用例验证。</p></div>
+          </li>
+          <li>
+            <span class="measured">04 / 复核</span>
+            <div><h3>报告 、 整改与复测</h3><p>交付指标卡、问题清单与证据，支持版本对比复核。</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="reports" class="section container evidence-section snap-slide" data-snap-section aria-labelledby="reports-title">
+      <div class="section-intro">
+        <h2 id="reports-title">结论可解释，问题可定位。</h2>
+      </div>
+      <div class="report-ledger console-table" data-glass>
+        <div class="report-ledger-head">
+          <svg class="window-dots" viewBox="0 0 52 12" aria-hidden="true"><circle class="window-dot-red" cx="6" cy="6" r="5"></circle><circle class="window-dot-yellow" cx="26" cy="6" r="5"></circle><circle class="window-dot-green" cx="46" cy="6" r="5"></circle></svg>
+          <span class="visually-hidden">报告结构</span>
+        </div>
+        <div class="report-row console-row" data-spotlight>
+          <div><h3>分项指标卡</h3><p>记录各项实测值、样本量、统计口径与适用性，明确“不适用”和“不可判定”。</p></div>
+        </div>
+        <div class="report-row console-row" data-spotlight>
+          <div><h3>问题与证据链</h3><p>关联对象版本、运行记录、评分依据与原始证据，支持问题定位和修复复测。</p></div>
+        </div>
+        <div class="report-row report-row-gate console-row" data-spotlight>
+          <div><h3>安全门控结论</h3><p>由安全平台统一输出 G_safe。必验项完成且满足条件方可通过；证据不足时保持待判定。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="workspace-section section-band snap-slide" data-snap-section aria-labelledby="workspace-title">
+      <div class="container workspace-cta">
+        <div>
+          <h2 id="workspace-title">一个入口，<br>进入你的评测任务。</h2>
+          <p>数据、模型、智能体与安全评测工作台，将在完成服务部署后接入。</p>
+        </div>
+        <a class="workspace-link" href="http://8.130.152.15/login?next=/project/overview" data-spotlight>前往评测工作台</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="footer-brand" href="#" data-scroll-top>ATLAS</a>
+        <p>工业大模型与智能体评测平台</p>
+      </div>
+      <nav class="footer-nav" aria-label="页脚导航">
+        <a href="#platforms">四大平台</a>
+        <a href="#method">评测方法</a>
+        <a href="#reports">报告与证据</a>
+        <a href="http://8.130.152.15/login?next=/project/overview">评测工作台</a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog id="detail-dialog" class="detail-dialog" data-glass aria-labelledby="dialog-title" aria-describedby="dialog-body">
+    <form method="dialog" class="dialog-shell">
+      <div class="dialog-head">
+        <span class="measured">平台说明</span>
+        <button class="dialog-close" type="submit" aria-label="关闭">关闭</button>
+      </div>
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-body"></p>
+      <button class="button button-quiet dialog-dismiss" type="submit">返回页面</button>
+    </form>
+  </dialog>
+
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

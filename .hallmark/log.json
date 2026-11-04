@@ -1,0 +1,33 @@
+[
+ {
+  "entry": "2026-11-05-atlas-portal-v2",
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "page",
+  "shape": "Split Studio",
+  "theme": "console",
+  "axes": "dark/display-heavy/chromatic-amber",
+  "hero": "Corridor",
+  "nav": "banner over a retracting bar",
+  "footer": "index columns",
+  "imagery": "built system console, no photographs",
+  "photos": [],
+  "signature": "four platforms as one instrument panel",
+  "sections": [
+   "hero",
+   "principles",
+   "platforms",
+   "protocol trail",
+   "report ledger",
+   "workspace call",
+   "footer"
+  ],
+  "waived": ["29"],
+  "prompt": "redesign the ATLAS industrial AI evaluation portal with a technical, evidence-first tone",
+  "fingerprint": "split-studio/corridor/graphite-console/audit-rows/system-panel",
+  "typography": "ZCOOL QingKe HuangYou / Host Grotesk / Space Mono",
+  "interaction": "typewriter headline with visually hidden pause control, auto-hide nav, pointer glass sheen, full-slide module alignment, monotonic section scrolling with mid-transition crossfade, full-width pull-handle platform drawer, external workbench links, reduced-motion fallback",
+  "outcome": "Floor 0 FAIL · Reflex 0 · 29 waived 3 · hero-review 1 resolved · finish-review 2 resolved",
+  "date": "2026-11-05"
+ }
+]

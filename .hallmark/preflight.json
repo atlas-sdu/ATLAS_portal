@@ -1,0 +1,14 @@
+{
+  "scanned": "2026-11-03",
+  "findings": {
+    "brand": "ATLAS portal at https://bc.sdu.edu.cn/atlas.htm",
+    "fonts": "Arial + PingFang SC + Microsoft YaHei; no named display face",
+    "palette": "#142d40 ink, #f4f7f7 paper, #136d8c platform accent",
+    "motion": "CSS smooth scrolling and hover states; no framework",
+    "spacing": "inline page CSS, 36px side padding and 70px section rhythm",
+    "framework": "self-contained HTML/CSS/JS",
+    "product": "four-platform industrial AI evaluation portal with architecture diagram, protocol, evidence reports and modal detail"
+  },
+  "preserve": ["all page facts and copy", "nav anchors", "four platform detail modals", "workspace modal", "draft disclosure", "G_safe boundary"],
+  "introduce": ["Console design system", "system-console hero", "audit-trail composition", "new responsive states", "visible focus and reduced-motion behavior"]
+}
