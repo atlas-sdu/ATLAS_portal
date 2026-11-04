@@ -18,6 +18,13 @@ npm run build
 npm run preview
 ```
 
+部署到 `/atlas/` 子路径时：
+
+```powershell
+$env:VITE_BASE='/atlas/'
+npm run build
+```
+
 ## 文件
 
 - `index.html`：页面内容、弹层和导航
