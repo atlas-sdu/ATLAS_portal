@@ -71,6 +71,6 @@ npm run build
 
 ## 评测工作台
 
-顶部、底部页脚和页面末端的“评测工作台”统一跳转到：
+门户网站位于：`http://8.130.152.15/atlas/`
 
-`http://8.130.152.15/login?next=/project/overview`
+顶部、底部页脚和页面末端的“评测工作台”统一跳转到：`http://8.130.152.15/login?next=/project/overview`
